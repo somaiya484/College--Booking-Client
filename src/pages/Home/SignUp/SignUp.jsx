@@ -51,7 +51,7 @@ const SignUp = () => {
     return (
         <>
 
-            <div className=' my-5'>
+            <div className='py-32'>
                 <div className='bg-[#ffbf0000] p-5 rounded w-[500px] mx-auto shadow-2xl'>
                     <h1 className="text-4xl italic font-bold text-blue-700 uppercase text-center">Sign Up</h1>
                     <GoogleSignIn></GoogleSignIn>

@@ -40,7 +40,7 @@ const Login = () => {
 
     return (
         <>
-            <div className=' my-5'>
+            <div className=' py-32'>
                 <div className='bg-[#ffbf0000] p-5 rounded w-[500px] mx-auto shadow-2xl'>
                     <h1 className="text-4xl italic font-bold text-blue-700 uppercase text-center">Login</h1>
                     <GoogleSignIn></GoogleSignIn>
@@ -69,7 +69,7 @@ const Login = () => {
 
                         <input className='btn bg-blue-700 text-white font-semibold rounded-md  hover:bg-transparent hover:border-blue-700 hover:border-2 hover:text-blue-700 ml-2 mt-2 w-1/4' value="Login" type="submit" />
                     </form>
-                    <p><small><Link to="/signUp">Already have an account Login</Link></small></p>
+                    <p><small><Link to="/signUp">New Here? Then SignUp</Link></small></p>
                 </div>
             </div>
         </>
