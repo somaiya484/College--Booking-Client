@@ -8,7 +8,7 @@ const Admission = () => {
     // const { college_name } = collegeDetails
 
     useEffect(() => {
-        fetch('http://localhost:5000/college')
+        fetch('https://college-booking-server.vercel.app/college')
             .then(res => res.json())
             .then(result => {
                 setCollage(result)

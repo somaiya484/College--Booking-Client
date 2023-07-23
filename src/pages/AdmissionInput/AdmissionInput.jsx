@@ -34,7 +34,7 @@ const AdmissionInput = () => {
         }
         console.log(book)
 
-        // fetch('http://localhost:5000/admission', {
+        // fetch('https://college-booking-server.vercel.app/admission', {
         //     method:'POST',
         //     headers:{
         //         'content-type':'application/json'
